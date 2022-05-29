@@ -1,0 +1,10 @@
+body {
+  background-color: #1d1c22;
+}
+.navbar-nav {
+  margin-left: 40%;
+}
+.nav-link {
+  color: white;
+  border: none;
+}
