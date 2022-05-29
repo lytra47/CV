@@ -2,9 +2,12 @@ body {
   background-color: #1d1c22;
 }
 .navbar-nav {
-  margin-left: 40%;
+  margin-left: 37.5%;
 }
 .nav-link {
   color: white;
   border: none;
+}
+.container {
+  height: 80vh;
 }
