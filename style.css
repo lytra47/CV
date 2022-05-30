@@ -8,3 +8,10 @@ body {
   color: white;
   border: none;
 }
+
+a {
+  text-decoration: none;
+}
+p:hover {
+  cursor: default;
+}
