@@ -1,24 +1,49 @@
 body {
-  background-color: #1d1c22;
+  background-color: #14192c;
+}
+
+.headings {
+  background-color: transparent;
+  margin-left: 1.68%;
+  font-size: 30px;
+  margin-left: 0;
+}
+.hcontain {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-block: 0px;
 }
 .navbar-nav {
-  margin-left: 37.5%;
+  margin-left: 40%;
 }
 .nav-link {
   color: white;
   border: none;
-  background-color: rgba(1, 4, 21, 0.4);
+  background-color: #14192c92;
 }
 .nav-link:hover {
-  background-color: aliceblue;
+  background-color: #0042a6;
+  color: white;
 }
 .nav-link:focus {
   color: rgb(255, 255, 255);
   background-color: grey;
 }
+.list-group-item {
+  background-color: #0042a6;
+  color: white;
+}
+.card {
+  background-color: #0042a6;
+  color: white;
+}
+.fa-brands {
+  font-size: 70px;
+}
 
 a {
   text-decoration: none;
+  color: gold;
 }
 p:hover {
   cursor: default;
