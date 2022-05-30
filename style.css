@@ -7,6 +7,14 @@ body {
 .nav-link {
   color: white;
   border: none;
+  background-color: rgba(1, 4, 21, 0.4);
+}
+.nav-link:hover {
+  background-color: aliceblue;
+}
+.nav-link:focus {
+  color: rgb(255, 255, 255);
+  background-color: grey;
 }
 
 a {
