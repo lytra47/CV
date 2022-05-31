@@ -1,12 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Open+Sans&family=Roboto:wght@300&display=swap");
+
 body {
   background-color: #14192c;
 }
 
+.card-header {
+  font-family: "Kanit", sans-serif;
+  font-size: larger;
+  text-shadow: 0 0 15px black;
+}
 .headings {
   background-color: transparent;
   margin-left: 1.68%;
   font-size: 30px;
-  margin-left: 0;
 }
 .hcontain {
   margin-top: 0px;
@@ -37,8 +43,9 @@ body {
   background-color: #0042a6;
   color: white;
 }
-.fa-brands {
-  font-size: 70px;
+.fa-brands,
+.fa-solid {
+  font-size: 50px;
 }
 
 a {
