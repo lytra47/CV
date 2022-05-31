@@ -46,6 +46,13 @@ body {
 .fa-brands,
 .fa-solid {
   font-size: 50px;
+  transition: color 600ms ease;
+  text-shadow: 0 0 8px black;
+}
+.fa-brands:hover,
+.fa-solid:hover {
+  color: white;
+  transition: color 600ms ease;
 }
 
 a {
