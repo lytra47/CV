@@ -32,7 +32,7 @@ body {
 }
 
 .headings {
-  color: #467dea;
+  color: #0292cb;
   background-color: transparent;
   margin-left: 1.68%;
   font-size: 30px;
@@ -52,7 +52,7 @@ body {
   box-shadow: inset 0 1px 0 0 hsl(0deg 0% 100% / 10%);
 }
 .nav-link:hover {
-  background-color: #0042a6;
+  background-color: #005a7f;
   color: white;
   box-shadow: inset 0 1px 0 0 hsl(0deg 0% 100% / 10%);
 }
