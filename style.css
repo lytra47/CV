@@ -1,58 +1,87 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Open+Sans&family=Roboto:wght@300&display=swap");
 
 body {
-  background-color: #14192c;
+  background-image: linear-gradient(
+    to top,
+    #15192a,
+    #181c2e,
+    #1b1f32,
+    #1e2237,
+    #21253b,
+    #202439,
+    #1e2237,
+    #1d2135,
+    #171b2d,
+    #121524,
+    #0b0e1d,
+    #010415
+  );
 }
-
+.card-title:hover {
+  color: gold;
+  cursor: default;
+}
 .card-header {
   font-family: "Kanit", sans-serif;
   font-size: larger;
-  text-shadow: 0 0 15px black;
+  text-shadow: 0px 3px 6px black;
 }
+.card-header:hover {
+  color: gold;
+  cursor: default;
+}
+
 .headings {
+  color: #467dea;
   background-color: transparent;
   margin-left: 1.68%;
   font-size: 30px;
+  font-family: "Kanit", sans-serif;
 }
-.hcontain {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-block: 0px;
+.headings:hover {
+  color: gold;
 }
+
 .navbar-nav {
   margin-left: 40%;
 }
 .nav-link {
   color: white;
   border: none;
-  background-color: #14192c92;
+  background-color: rgba(1, 4, 21, 0.4);
+  box-shadow: inset 0 1px 0 0 hsl(0deg 0% 100% / 10%);
 }
 .nav-link:hover {
   background-color: #0042a6;
   color: white;
+  box-shadow: inset 0 1px 0 0 hsl(0deg 0% 100% / 10%);
 }
 .nav-link:focus {
   color: rgb(255, 255, 255);
   background-color: grey;
 }
 .list-group-item {
-  background-color: #0042a6;
+  background-color: transparent;
   color: white;
 }
 .card {
-  background-color: #0042a6;
+  background-color: #005a7f;
   color: white;
+  box-shadow: inset 0 1px 0 0 hsl(0deg 0% 100% / 10%);
 }
 .fa-brands,
 .fa-solid {
   font-size: 50px;
-  transition: color 600ms ease;
   text-shadow: 0 0 8px black;
+  transition: all 500ms ease;
+  transition-property: transform, color;
 }
 .fa-brands:hover,
 .fa-solid:hover {
   color: white;
-  transition: color 600ms ease;
+  transition: all 500ms ease;
+  transition-property: transform, color;
+  transform: scale(1.2);
 }
 
 a {
